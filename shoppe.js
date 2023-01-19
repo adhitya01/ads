@@ -9,7 +9,7 @@ function referer_se()
 
 function referer_sm()
 {
-	return str_contains(document.referrer.toLowerCase(), ['fb.com', 'facebook.com', 'twitter.com', 'pinterest.com', 'plus.google.']);
+	return str_contains(document.referrer.toLowerCase(), ['fb.com', 'facebook.com', 'twitter.com', 'pinterest.com','telegram.org', 'plus.google.']);
 }
 
 function referer_empty()
